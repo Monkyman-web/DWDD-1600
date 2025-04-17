@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leonardo Robles">
+    <meta name="description" content="Learn about Car models and Car FAQ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Midnight Car Fanatics:Car models and Car FAQs</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Midnight Car Fanatics</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Car make</a></li>
+            <li><a href="models.html">Car models</a></li>
+            <li class="active"><a href="request.html">Request a Car</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+    <main>
+        <h1>Request a Car</h1>
+        <form method="get" class="myform" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Info</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Car Make</legend>
+            <label><input type="radio" name="make" value="ford">Ford</label>
+            <label><input type="radio" name="make" value="chevrolet">Chevrolet</label>
+            <label><input type="radio" name="make" value="toyota">Toyota</label>      
+            </fieldset>
+
+            <fieldset>
+                <legend>Car Model</legend>
+                <label>Ford
+                    <select name="Ford">
+                        <option value="none"></option>
+                        <option value="bronco sport">Bronco Sport</option>
+                        <option value="bronco">Bronco</option>
+                        <option value="explorer">Expleror</option>
+                        <option value="edge">Edge</option>
+                        <option value="mustang mach-e">Mustang Mach-E</option>
+                        <option value="expedition">Expedition</option>
+                        <option value="maverick">Maverick</option>
+                        <option value="ranger">Ranger</option>
+                        <option value="f-150">F-150</option>
+                        <option value="super duty">Super Duty</option>
+                        <option value="e-transit">E-Transit</option>
+                        <option value="f-150 lightning">F-150 Lightning</option>
+                        <option value="transit">Transit</option>
+                    </select>
+                </label>
+
+                <label>Chevrolet
+                    <select name="Chevrolet">
+                        <option value="none"></option>
+                        <option value="trax">Trax</option>
+                        <option value="trailblazer">Trailblazer</option>
+                        <option value="equinox">Equinox</option>
+                        <option value="equinox ev">Equinox EV</option>
+                        <option value="blazer">Blazer</option>
+                        <option value="blazer ev">Blazer EV</option>
+                        <option value="traverse">Traverse</option>
+                        <option value="tahoe">Tahoe</option>
+                        <option value="suburban">Suburban</option>
+                        <option value="colorado">Colorado</option>
+                        <option value="silverado">Silverado</option>
+                        <option value="silverado hd">Silverado HD</option>
+                        <option value="silverado ev">Silverado EV</option>
+                        <option value="stingray">Stingray</option>
+                        <option value="e-ray">E-Ray</option>
+                        <option value="z06">Z06</option>
+                        <option value="zr1">ZR1</option>
+                        <option value="malibu">Malibu</option>
+                        <option value="express cargo">Express Cargo</option>
+                        <option value="express passenger">Express Passenger</option>
+                    </select>
+                </label>
+
+                <label>Toyota
+                    <select name="Toyota">
+                        <option value="none"></option>
+                        <option value="2025 corolla">2025 Corolla</option>
+                        <option value="2025 corolla hybrid">2025 Corolla Hybrid</option>
+                        <option value="2025 corolla hatchback">2025 Corolla Hatchback</option>
+                        <option value="2025 prius">2025 Prius</option>
+                        <option value="2025 prius plug-in hybrid">2025 Prius Plug-in Hybrid</option>
+                        <option value="2025 camry">2025 Camry</option>
+                        <option value="2026 toyota crown">2026 Toyota Crown</option>
+                        <option value="2025 mirai">2025 Mirai</option>
+                        <option value="2025 gr86">2025 GR86</option>
+                        <option value="2025 gr corolla">2025 GR Corolla</option>
+                        <option value="2026 gr supra">2026 GR Supra</option>
+                        <option value="2025 sienna">2025 Sienna</option>
+                        <option value="2025 tacoma">2025 Tacoma</option>
+                        <option value="2025 tundra">2025 Tundra</option>
+                        <option value="2025 corolla cross">2025 Corolla Cross</option>
+                        <option value="2025 corolla cross hybrid">2025 Corolla Cross Hybrid</option>
+                        <option value="2025 rav4">2025 RAV4</option>
+                        <option value="2025 rav4 hybrid">2025 RAV4 Hybrid</option>
+                        <option value="2025 rav4 plug in hybrid">2025 RAV4 Plug-in Hybrid</option>
+                        <option value="2025 highlander">2025 Highlander</option>
+                        <option value="2025 highlander hybrid">2025 Highlander Hybrid</option>
+                        <option value="2025 4runner">2025 4Runner</option>
+                        <option value="2025 bz4x">2025 bZ4X</option>
+                        <option value="2025 grand highlander">2025 Grand Highlander</option>
+                        <option value="2025 grand highlander hybrid">2025 Grand Highlander Hybrid</option>
+                        <option value="2025 crown signia hybrid">2025 Crown Signia</option>
+                        <option value="2025 land cruiser">2025 Land Cruiser</option>
+                        <option value="2025 sequoia">2025 Sequoia</option>
+                    </select>
+                </label>
+
+            </fieldset>
+            
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Request">
+        </form>
+    </main>
+
+    <!-- start page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Leonardo Robles &bull; DWDD1600 Web Essentials</p>
+    </footer>
+</body>
+
+</html>
